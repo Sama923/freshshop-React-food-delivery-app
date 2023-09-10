@@ -1,12 +1,14 @@
 import React from 'react'
+//import { Helmet } from 'react-helmet-async';
 
-const Helmet = () => {
+const helmet = (props) => {
+  document.title = "Freshshop Ordering App" + props.title;
   return (
-    <div>
-      <h1>helmet</h1>
-    </div>
+
+    <div className='w-100'>{props.children}</div>
+
   )
 }
 
-export default Helmet
+export default helmet
 

@@ -45,7 +45,7 @@
   padding: 5px 20px;
   width: 100%;
   height: 80px;
-  background: #df2020;
+  background: #b0b435;
 }
 
 .cart__bottom h6 {
@@ -69,6 +69,7 @@
 .cart__bottom button a {
   color: #212245;
   font-weight: 600;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 576px) {

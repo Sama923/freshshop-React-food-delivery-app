@@ -1,14 +1,14 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 
-import Home from "../pages/Home";
-import AllFoods from "../pages/AllFoods";
-import FoodDetails from "../pages/FoodDetails";
-import Cart from "../pages/Cart";
-import Checkout from "../pages/Checkout";
-import Contact from "../pages/Contact";
-import Login from "../pages/Login";
-import Register from "../pages/Register";
+import Home from "../Pages/Home";
+import AllFoods from "../Pages/AllFoods"
+import FoodDetails from "../Pages/FoodDetails";
+import Cart from "../Pages/Cart";
+import Checkout from "../Pages/Checkout";
+import Contact from "../Pages/Contact";
+import Login from "../Pages/Login";
+import Register from "../Pages/Register";
 
 const Routers = () => {
   return (

@@ -22,12 +22,12 @@ import product_02_image_06 from "../images/product_02.6.jpg"
 import product_02_image_07 from "../images/product_02.7.jpg"
 import product_02_image_08 from "../images/product_02.8.jpg"
 import product_02_image_09 from "../images/product_02.9.jpg"
-import product_02_image_010 from "../images/product_02.10.webp"
+import product_02_image_010 from "../images/product_02.10.jpg"
 
 const products = [
     {
         id: "01",
-        title: "Chicken Burger",
+        title: "Garlic",
         price: 24.0,
         image01: product_01_image_01,
         category: "Vegetables",
@@ -37,7 +37,7 @@ const products = [
 
     {
         id: "02",
-        title: "Chicken Burger",
+        title: "Cherry Tomato",
         price: 24.0,
         image01: product_01_image_02,
         category: "Vegetables",
@@ -47,7 +47,7 @@ const products = [
 
     {
         id: "03",
-        title: "Chicken Burger",
+        title: "Beet",
         price: 24.0,
         image01: product_01_image_03,
         category: "Vegetables",
@@ -57,7 +57,7 @@ const products = [
 
     {
         id: "04",
-        title: "Chicken Burger",
+        title: "Carrot",
         price: 24.0,
         image01: product_01_image_04,
         category: "Vegetables",
@@ -67,7 +67,7 @@ const products = [
 
     {
         id: "05",
-        title: "Chicken Burger",
+        title: "peas",
         price: 24.0,
         image01: product_01_image_05,
         category: "Vegetables",
@@ -76,7 +76,7 @@ const products = [
     },
     {
         id: "06",
-        title: "Chicken Burger",
+        title: "onion",
         price: 24.0,
         image01: product_01_image_06,
         category: "Vegetables",
@@ -87,7 +87,7 @@ const products = [
     ,
     {
         id: "07",
-        title: "Chicken Burger",
+        title: "red pepper",
         price: 24.0,
         image01: product_01_image_07,
         category: "Vegetables",
@@ -97,7 +97,7 @@ const products = [
     ,
     {
         id: "08",
-        title: "Chicken Burger",
+        title: "Tomatoes",
         price: 24.0,
         image01: product_01_image_08,
         category: "Vegetables",
@@ -107,7 +107,7 @@ const products = [
     ,
     {
         id: "09",
-        title: "Chicken Burger",
+        title: "Cucumber",
         price: 24.0,
         image01: product_01_image_09,
         category: "Vegetables",
@@ -118,7 +118,7 @@ const products = [
     ,
     {
         id: "010",
-        title: "Chicken Burger",
+        title: "Cabbage",
         price: 24.0,
         image01: product_01_image_010,
         category: "Vegetables",
@@ -128,7 +128,7 @@ const products = [
     ,
     {
         id: "011",
-        title: "Chicken Burger",
+        title: "Orange",
         price: 24.0,
         image01: product_02_image_01,
         category: "fruits",
@@ -138,7 +138,7 @@ const products = [
     ,
     {
         id: "012",
-        title: "Chicken Burger",
+        title: "Panana",
         price: 24.0,
         image01: product_02_image_02,
         category: "fruits",
@@ -148,7 +148,7 @@ const products = [
     ,
     {
         id: "013",
-        title: "Chicken Burger",
+        title: "Apple",
         price: 24.0,
         image01: product_02_image_03,
         category: "fruits",
@@ -158,7 +158,7 @@ const products = [
     ,
     {
         id: "014",
-        title: "Chicken Burger",
+        title: "kiwi",
         price: 24.0,
         image01: product_02_image_04,
         category: "fruits",
@@ -168,7 +168,7 @@ const products = [
     ,
     {
         id: "015",
-        title: "Chicken Burger",
+        title: "Peach",
         price: 24.0,
         image01: product_02_image_05,
         category: "fruits",
@@ -178,7 +178,7 @@ const products = [
     ,
     {
         id: "016",
-        title: "Chicken Burger",
+        title: "Cherry",
         price: 24.0,
         image01: product_02_image_06,
         category: "fruits",
@@ -188,7 +188,7 @@ const products = [
     ,
     {
         id: "017",
-        title: "Chicken Burger",
+        title: "Strawberry",
         price: 24.0,
         image01: product_02_image_07,
         category: "fruits",
@@ -198,7 +198,7 @@ const products = [
     ,
     {
         id: "018",
-        title: "Chicken Burger",
+        title: "Mango",
         price: 24.0,
         image01: product_02_image_08,
         category: "fruits",
@@ -208,7 +208,7 @@ const products = [
     ,
     {
         id: "019",
-        title: "Chicken Burger",
+        title: "Apricot",
         price: 24.0,
         image01: product_02_image_09,
         category: "fruits",
@@ -218,7 +218,7 @@ const products = [
     ,
     {
         id: "020",
-        title: "Chicken Burger",
+        title: "Watermelon",
         price: 24.0,
         image01: product_02_image_010,
         category: "fruits",

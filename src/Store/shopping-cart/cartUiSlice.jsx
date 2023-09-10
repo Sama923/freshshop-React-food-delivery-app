@@ -1,11 +1,15 @@
-import React from 'react'
+import { createSlice } from "@reduxjs/toolkit";
 
-const cartUiSlice = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+const cartUiSlice = createSlice({
+  name: "cartUi",
+  initialState: { cartIsVisible: false },
 
-export default cartUiSlice
+  reducers: {
+    toggle(state) {
+      state.cartIsVisible = !state.cartIsVisible;
+    },
+  },
+});
+
+export const cartUiActions = cartUiSlice.actions;
+export default cartUiSlice;
